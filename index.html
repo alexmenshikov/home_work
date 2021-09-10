@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>css Урок 9 - практика</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/hover.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/adaptive.css">
+</head>
+
+<body>
+    <div id="header">
+        <div id="header-container">
+            <div id="burger">
+                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="124px" height="124px"
+                    viewBox="0 0 124 124" style="enable-background:new 0 0 124 124;" xml:space="preserve">
+                    <g>
+                        <path d="M112,6H12C5.4,6,0,11.4,0,18s5.4,12,12,12h100c6.6,0,12-5.4,12-12S118.6,6,112,6z" />
+                        <path
+                            d="M112,50H12C5.4,50,0,55.4,0,62c0,6.6,5.4,12,12,12h100c6.6,0,12-5.4,12-12C124,55.4,118.6,50,112,50z" />
+                        <path d="M112,94H12c-6.6,0-12,5.4-12,12s5.4,12,12,12h100c6.6,0,12-5.4,12-12S118.6,94,112,94z" />
+                    </g>
+                </svg>
+            </div>
+            <div class="logo">
+                <img src="images/pizza.png" alt="logo">
+                <span>Pizza cheff</span>
+            </div>
+            <div id="menu">
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 492 492"
+                    style="enable-background:new 0 0 492 492;" xml:space="preserve">
+                    <g>
+                        <path d="M300.188,246L484.14,62.04c5.06-5.064,7.852-11.82,7.86-19.024c0-7.208-2.792-13.972-7.86-19.028L468.02,7.872
+                        c-5.068-5.076-11.824-7.856-19.036-7.856c-7.2,0-13.956,2.78-19.024,7.856L246.008,191.82L62.048,7.872
+                        c-5.06-5.076-11.82-7.856-19.028-7.856c-7.2,0-13.96,2.78-19.02,7.856L7.872,23.988c-10.496,10.496-10.496,27.568,0,38.052
+                        L191.828,246L7.872,429.952c-5.064,5.072-7.852,11.828-7.852,19.032c0,7.204,2.788,13.96,7.852,19.028l16.124,16.116
+                        c5.06,5.072,11.824,7.856,19.02,7.856c7.208,0,13.968-2.784,19.028-7.856l183.96-183.952l183.952,183.952
+                        c5.068,5.072,11.824,7.856,19.024,7.856h0.008c7.204,0,13.96-2.784,19.028-7.856l16.12-16.116
+                        c5.06-5.064,7.852-11.824,7.852-19.028c0-7.204-2.792-13.96-7.852-19.028L300.188,246z" />
+                    </g>
+                </svg>
+                <a class="menu-item" href="#">Пиццы</a>
+                <a class="menu-item" href="#">Напитки</a>
+                <a class="menu-item" href="#">Доставка и оплата</a>
+                <a class="menu-item" href="#">Контакты</a>
+            </div>
+            <div id="cart">
+                <img src="images/cart.png" alt="cart">
+            </div>
+        </div>
+    </div>
+
+    <div id="main" class="wow animate__slideInDown">
+        <div id="main-container">
+            <div id="main-info">
+                <h1>
+                    Самая вкусная пицца в мире <span>только в Pizza Cheff</span>
+                </h1>
+                <div id="main-advantages">
+                    <div class="advantage">
+                        <div class="advantage-img">
+                            <img src="images/main-1.png" alt="">
+                        </div>
+                        <div class="advantage-text">
+                            <div class="advantage-title">
+                                Лучшее тесто
+                            </div>
+                            <div class="advantage-description">
+                                Мы создаем тесто только из отборной итальянской муки наивысшего качества
+                            </div>
+                        </div>
+                    </div>
+                    <div class="advantage">
+                        <div class="advantage-img">
+                            <img src="images/main-3.png" alt="">
+                        </div>
+                        <div class="advantage-text">
+                            <div class="advantage-title">
+                                лучшие повара
+                            </div>
+                            <div class="advantage-description">
+                                Пиццы готовят самые профессиональные итальянские повара
+                            </div>
+                        </div>
+                    </div>
+                    <div class="advantage">
+                        <div class="advantage-img">
+                            <img src="images/main-2.png" alt="">
+                        </div>
+                        <div class="advantage-text">
+                            <div class="advantage-title">
+                                гарантия качества
+                            </div>
+                            <div class="advantage-description">
+                                Наша пиццерия получила множество наград и признаний по всему миру
+                            </div>
+                        </div>
+                    </div>
+                    <div class="advantage">
+                        <div class="advantage-img">
+                            <img src="images/main-4.png" alt="">
+                        </div>
+                        <div class="advantage-text">
+                            <div class="advantage-title">
+                                отборные рецепты
+                            </div>
+                            <div class="advantage-description">
+                                Мы используем рецепты от мировых лидеров в изготовлении пиццы
+                            </div>
+                        </div>
+                    </div>
+                    <div id="main-action">
+                        <a class="btn hvr-bounce-to-bottom" href="#">Выбрать пиццу</a>
+                    </div>
+                </div>
+            </div>
+            <div id="main-img">
+                <img src="images/pizza_big.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div id="products">
+        <div id="products-container">
+            <div id="products-title">
+                Выберите свою любимую пиццу
+            </div>
+            <div id="products-items">
+                <div class="product wow animate__fadeInUp">
+                    <div class="product-img">
+                        <a class="popup-img" href="images/product-1.png">
+                            <img src="images/product-1.png" alt="">
+                        </a>
+                    </div>
+                    <div class="product-title">
+                        Мясная Делюкс
+                    </div>
+                    <div class="product-text">
+                        Пепперони, лук, бекон, томатная паста, колбаски, перец, грибы, соус чили, ананасы
+                    </div>
+                    <button class="product-button btn hvr-bounce-to-bottom">
+                        В корзину
+                    </button>
+                </div>
+                <div class="product wow animate__fadeInUp">
+                    <div class="product-img">
+                        <a class="popup-img" href="images/product-2.png">
+                            <img src="images/product-2.png" alt="">
+                        </a>
+                    </div>
+                    <div class="product-title">
+                        Морская Премиум
+                    </div>
+                    <div class="product-text">
+                        Перец, сыр, креветки, кальмары, мидии, лосось
+                    </div>
+                    <button class="product-button btn hvr-bounce-to-bottom">
+                        В корзину
+                    </button>
+                </div>
+                <div class="product wow animate__fadeInUp">
+                    <div class="product-img">
+                        <a class="popup-img" href="images/product-3.png">
+                            <img src="images/product-3.png" alt="">
+                        </a>
+                    </div>
+                    <div class="product-title">
+                        Бекон и Сосиски
+                    </div>
+                    <div class="product-text">
+                        Бекон, сыр, сосиски, ананас, томатная паста
+                    </div>
+                    <button class="product-button btn hvr-bounce-to-bottom">
+                        В корзину
+                    </button>
+                </div>
+                <div class="product wow animate__fadeInUp">
+                    <div class="product-img">
+                        <a class="popup-img" href="images/product-4.png">
+                            <img src="images/product-4.png" alt="">
+                        </a>
+                    </div>
+                    <div class="product-title">
+                        Куриная Делюкс
+                    </div>
+                    <div class="product-text">
+                        Курица, ананас, сыр Пепперони, соус для пиццы, томатная паста
+                    </div>
+                    <button class="product-button btn hvr-bounce-to-bottom">
+                        В корзину
+                    </button>
+                </div>
+                <div class="product wow animate__fadeInUp">
+                    <div class="product-img">
+                        <a class="popup-img" href="images/product-5.png">
+                            <img src="images/product-5.png" alt="">
+                        </a>
+                    </div>
+                    <div class="product-title">
+                        Барбекю Премиум
+                    </div>
+                    <div class="product-text">
+                        Свинина BBQ, соус Барбкею, сыр, курица, соус для пиццы, соус чили
+                    </div>
+                    <button class="product-button btn hvr-bounce-to-bottom">
+                        В корзину
+                    </button>
+                </div>
+                <div class="product wow animate__fadeInUp">
+                    <div class="product-img">
+                        <a class="popup-img" href="images/product-6.png">
+                            <img src="images/product-6.png" alt="">
+                        </a>
+                    </div>
+                    <div class="product-title">
+                        Пепперони Дабл
+                    </div>
+                    <div class="product-text">
+                        Пепперони, сыр, колбаса 2 видов: обжаренная и вареная
+                    </div>
+                    <button class="product-button btn hvr-bounce-to-bottom">
+                        В корзину
+                    </button>
+                </div>
+                <div class="product wow animate__fadeInUp">
+                    <div class="product-img">
+                        <a class="popup-img" href="images/product-7.png">
+                            <img src="images/product-7.png" alt="">
+                        </a>
+                    </div>
+                    <div class="product-title">
+                        Куриное трио
+                    </div>
+                    <div class="product-text">
+                        Жареная курица, Тушеная курица, Куриные наггетсы, перец, сыр, грибы, соус для пиццы
+                    </div>
+                    <button class="product-button btn hvr-bounce-to-bottom">
+                        В корзину
+                    </button>
+                </div>
+                <div class="product wow animate__fadeInUp">
+                    <div class="product-img">
+                        <a class="popup-img" href="images/product-8.png">
+                            <img src="images/product-8.png" alt="">
+                        </a>
+                    </div>
+                    <div class="product-title">
+                        Сырная
+                    </div>
+                    <div class="product-text">
+                        Сыр Джюгас, Сыр с плесенью, Сыр Моцарелла, Сыр секретный
+                    </div>
+                    <button class="product-button btn hvr-bounce-to-bottom">
+                        В корзину
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="order">
+        <div id="order-container">
+            <div id="order-text">
+                <div id="order-text-title">
+                    <span>Хватит думать!</span>Доставим заказ за 30 минут!
+                </div>
+                <div id="order-text-message">
+                    Мы гарантированно доставим вашу пиццу за 30 минут с момента оформления заказа. Если мы опоздаем даже
+                    на
+                    1 минуту - вы получаете весь заказ бесплатно и ваучер на скидку на следующий заказ. Мы гордимся
+                    нашим
+                    сервисом и сделаем всё, чтобы наш клиент был доволен и не остался голодный!
+                </div>
+            </div>
+            <form action="#" id="order-form" class="wow animate__fadeInRight">
+                <div>
+                    <input id="name" type="text" placeholder="Ваше Имя">
+                    <div class="form__error">Необходимо ввести Ваше Имя</div>
+                </div>
+                <div>
+                    <input id="address" type="text" placeholder="Адрес доставки">
+                    <div class="form__error">Необходимо ввести адрес доставки</div>
+                </div>
+                <div>
+                    <input id="phone" type="text" placeholder="Телефон">
+                    <div class="form__error">Необходимо ввести телефон</div>
+                </div>
+                <button id="submit" type="button" href="#open-popup"
+                    class="btn open-popup hvr-bounce-to-bottom">Оформить заказ</button>
+            </form>
+            <div id="success__send">
+                <div class="send__text">
+                    Спасибо за Ваш заказ.
+                </div>
+                <div class="send__subtext">
+                    Мы скоро свяжемся с Вами!
+                </div>
+            </div>
+            <div id="order-img">
+                <img src="images/pizzzzza.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div id="footer">
+        <div id="footer-container">
+            <div class="logo">
+                <img src="images/pizza.png" alt="logo">
+                <span>Pizza cheff</span>
+            </div>
+            <div id="rights">
+                Все права защищены, 2020
+            </div>
+        </div>
+    </div>
+
+    <div id="full-loader">
+        <div class="loader-pizza"></div>
+    </div>
+
+    <div id="open-popup" class="popup mfp-hide">
+        <span class="popup__text">Спасибо за заказ.</span>
+        <span class="popup__subtext">Мы свяжемся с вами в ближайшее время!</span>
+    </div>
+
+    <script src="js/wow.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery.magnific-popup.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        $(document).ready(function () {
+            new WOW({
+                animateClass: "animate__animated"
+            }).init();
+
+            $('.popup-img').magnificPopup({
+                type: 'image'
+            });
+
+            // $('.open-popup').magnificPopup({
+            //     type: 'inline',
+            //     midClick: true
+            // });
+        });
+        document.getElementById('burger').onclick = function () {
+            document.getElementById('menu').classList.add('open');
+        }
+        document.querySelectorAll('#menu > *').forEach((item) => {
+            item.onclick = () => {
+                document.getElementById('menu').classList.remove('open');
+            }
+        })
+    </script>
+
+</body>
+
+</html>
